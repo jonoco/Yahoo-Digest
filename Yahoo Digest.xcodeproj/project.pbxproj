@@ -12,12 +12,12 @@
 		BB5AACFD1BA7D9F30049B4A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5AACFC1BA7D9F30049B4A2 /* Images.xcassets */; };
 		BB5AAD001BA7D9F30049B4A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5AACFE1BA7D9F30049B4A2 /* LaunchScreen.xib */; };
 		BB5AAD0C1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AAD0B1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift */; };
-		BB5AAD161BA7DB9E0049B4A2 /* Clocks.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */; };
 		BBEC88371BB76072000CE9CB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC88361BB76072000CE9CB /* MasterViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		BBEC88391BB76454000CE9CB /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC88381BB76454000CE9CB /* PageContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BBEC88481BB77D98000CE9CB /* Color Wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88451BB77D98000CE9CB /* Color Wheel.png */; settings = {ASSET_TAGS = (); }; };
-		BBEC88491BB77D98000CE9CB /* Comprehensive.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88461BB77D98000CE9CB /* Comprehensive.png */; settings = {ASSET_TAGS = (); }; };
-		BBEC884A1BB77D98000CE9CB /* Twice.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88471BB77D98000CE9CB /* Twice.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC88501BB794ED000CE9CB /* Clocks.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC884C1BB794ED000CE9CB /* Clocks.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC88511BB794ED000CE9CB /* Color Wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC884D1BB794ED000CE9CB /* Color Wheel.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC88521BB794ED000CE9CB /* Comprehensive.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC884E1BB794ED000CE9CB /* Comprehensive.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC88531BB794ED000CE9CB /* Twice.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC884F1BB794ED000CE9CB /* Twice.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,12 @@
 		BB5AAD051BA7D9F30049B4A2 /* Yahoo DigestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo DigestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5AAD0A1BA7D9F30049B4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5AAD0B1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_DigestTests.swift; sourceTree = "<group>"; };
-		BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clocks.png; path = ../Clocks.png; sourceTree = "<group>"; };
 		BBEC88361BB76072000CE9CB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		BBEC88381BB76454000CE9CB /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
-		BBEC88451BB77D98000CE9CB /* Color Wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color Wheel.png"; sourceTree = "<group>"; };
-		BBEC88461BB77D98000CE9CB /* Comprehensive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comprehensive.png; sourceTree = "<group>"; };
-		BBEC88471BB77D98000CE9CB /* Twice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twice.png; sourceTree = "<group>"; };
+		BBEC884C1BB794ED000CE9CB /* Clocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clocks.png; sourceTree = "<group>"; };
+		BBEC884D1BB794ED000CE9CB /* Color Wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color Wheel.png"; sourceTree = "<group>"; };
+		BBEC884E1BB794ED000CE9CB /* Comprehensive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comprehensive.png; sourceTree = "<group>"; };
+		BBEC884F1BB794ED000CE9CB /* Twice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		BB5AACF21BA7D9F30049B4A2 /* Yahoo Digest */ = {
 			isa = PBXGroup;
 			children = (
-				BBEC883A1BB76706000CE9CB /* PageViewDemoImages */,
+				BBEC884B1BB794ED000CE9CB /* Assets */,
 				BB5AACF51BA7D9F30049B4A2 /* AppDelegate.swift */,
 				BBEC88361BB76072000CE9CB /* MasterViewController.swift */,
 				BBEC88381BB76454000CE9CB /* PageContentViewController.swift */,
@@ -124,15 +124,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BBEC883A1BB76706000CE9CB /* PageViewDemoImages */ = {
+		BBEC884B1BB794ED000CE9CB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */,
-				BBEC88451BB77D98000CE9CB /* Color Wheel.png */,
-				BBEC88461BB77D98000CE9CB /* Comprehensive.png */,
-				BBEC88471BB77D98000CE9CB /* Twice.png */,
+				BBEC884C1BB794ED000CE9CB /* Clocks.png */,
+				BBEC884D1BB794ED000CE9CB /* Color Wheel.png */,
+				BBEC884E1BB794ED000CE9CB /* Comprehensive.png */,
+				BBEC884F1BB794ED000CE9CB /* Twice.png */,
 			);
-			path = PageViewDemoImages;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,13 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5AAD161BA7DB9E0049B4A2 /* Clocks.png in Resources */,
+				BBEC88521BB794ED000CE9CB /* Comprehensive.png in Resources */,
+				BBEC88501BB794ED000CE9CB /* Clocks.png in Resources */,
 				BB5AACFB1BA7D9F30049B4A2 /* Main.storyboard in Resources */,
-				BBEC88481BB77D98000CE9CB /* Color Wheel.png in Resources */,
 				BB5AAD001BA7D9F30049B4A2 /* LaunchScreen.xib in Resources */,
+				BBEC88531BB794ED000CE9CB /* Twice.png in Resources */,
+				BBEC88511BB794ED000CE9CB /* Color Wheel.png in Resources */,
 				BB5AACFD1BA7D9F30049B4A2 /* Images.xcassets in Resources */,
-				BBEC88491BB77D98000CE9CB /* Comprehensive.png in Resources */,
-				BBEC884A1BB77D98000CE9CB /* Twice.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
