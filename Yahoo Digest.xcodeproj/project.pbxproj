@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BB5AACF61BA7D9F30049B4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AACF51BA7D9F30049B4A2 /* AppDelegate.swift */; };
-		BB5AACF81BA7D9F30049B4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AACF71BA7D9F30049B4A2 /* ViewController.swift */; };
 		BB5AACFB1BA7D9F30049B4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5AACF91BA7D9F30049B4A2 /* Main.storyboard */; };
 		BB5AACFD1BA7D9F30049B4A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5AACFC1BA7D9F30049B4A2 /* Images.xcassets */; };
 		BB5AAD001BA7D9F30049B4A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5AACFE1BA7D9F30049B4A2 /* LaunchScreen.xib */; };
 		BB5AAD0C1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AAD0B1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift */; };
+		BB5AAD161BA7DB9E0049B4A2 /* Clocks.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */; };
+		BBEC88371BB76072000CE9CB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC88361BB76072000CE9CB /* MasterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBEC88391BB76454000CE9CB /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEC88381BB76454000CE9CB /* PageContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BBEC88481BB77D98000CE9CB /* Color Wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88451BB77D98000CE9CB /* Color Wheel.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC88491BB77D98000CE9CB /* Comprehensive.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88461BB77D98000CE9CB /* Comprehensive.png */; settings = {ASSET_TAGS = (); }; };
+		BBEC884A1BB77D98000CE9CB /* Twice.png in Resources */ = {isa = PBXBuildFile; fileRef = BBEC88471BB77D98000CE9CB /* Twice.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		BB5AACF01BA7D9F30049B4A2 /* Yahoo Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Digest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5AACF41BA7D9F30049B4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5AACF51BA7D9F30049B4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB5AACF71BA7D9F30049B4A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB5AACFA1BA7D9F30049B4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB5AACFC1BA7D9F30049B4A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB5AACFF1BA7D9F30049B4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BB5AAD051BA7D9F30049B4A2 /* Yahoo DigestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo DigestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5AAD0A1BA7D9F30049B4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5AAD0B1BA7D9F30049B4A2 /* Yahoo_DigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_DigestTests.swift; sourceTree = "<group>"; };
+		BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Clocks.png; path = ../Clocks.png; sourceTree = "<group>"; };
+		BBEC88361BB76072000CE9CB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BBEC88381BB76454000CE9CB /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		BBEC88451BB77D98000CE9CB /* Color Wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color Wheel.png"; sourceTree = "<group>"; };
+		BBEC88461BB77D98000CE9CB /* Comprehensive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comprehensive.png; sourceTree = "<group>"; };
+		BBEC88471BB77D98000CE9CB /* Twice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twice.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,10 @@
 		BB5AACF21BA7D9F30049B4A2 /* Yahoo Digest */ = {
 			isa = PBXGroup;
 			children = (
+				BBEC883A1BB76706000CE9CB /* PageViewDemoImages */,
 				BB5AACF51BA7D9F30049B4A2 /* AppDelegate.swift */,
-				BB5AACF71BA7D9F30049B4A2 /* ViewController.swift */,
+				BBEC88361BB76072000CE9CB /* MasterViewController.swift */,
+				BBEC88381BB76454000CE9CB /* PageContentViewController.swift */,
 				BB5AACF91BA7D9F30049B4A2 /* Main.storyboard */,
 				BB5AACFC1BA7D9F30049B4A2 /* Images.xcassets */,
 				BB5AACFE1BA7D9F30049B4A2 /* LaunchScreen.xib */,
@@ -110,6 +122,17 @@
 				BB5AAD0A1BA7D9F30049B4A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBEC883A1BB76706000CE9CB /* PageViewDemoImages */ = {
+			isa = PBXGroup;
+			children = (
+				BB5AAD151BA7DB9E0049B4A2 /* Clocks.png */,
+				BBEC88451BB77D98000CE9CB /* Color Wheel.png */,
+				BBEC88461BB77D98000CE9CB /* Comprehensive.png */,
+				BBEC88471BB77D98000CE9CB /* Twice.png */,
+			);
+			path = PageViewDemoImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +179,7 @@
 		BB5AACE81BA7D9F30049B4A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Joshua Cox";
 				TargetAttributes = {
@@ -192,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5AAD161BA7DB9E0049B4A2 /* Clocks.png in Resources */,
 				BB5AACFB1BA7D9F30049B4A2 /* Main.storyboard in Resources */,
+				BBEC88481BB77D98000CE9CB /* Color Wheel.png in Resources */,
 				BB5AAD001BA7D9F30049B4A2 /* LaunchScreen.xib in Resources */,
 				BB5AACFD1BA7D9F30049B4A2 /* Images.xcassets in Resources */,
+				BBEC88491BB77D98000CE9CB /* Comprehensive.png in Resources */,
+				BBEC884A1BB77D98000CE9CB /* Twice.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5AACF81BA7D9F30049B4A2 /* ViewController.swift in Sources */,
+				BBEC88391BB76454000CE9CB /* PageContentViewController.swift in Sources */,
 				BB5AACF61BA7D9F30049B4A2 /* AppDelegate.swift in Sources */,
+				BBEC88371BB76072000CE9CB /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +440,7 @@
 				BB5AAD111BA7D9F30049B4A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5AAD121BA7D9F30049B4A2 /* Build configuration list for PBXNativeTarget "Yahoo DigestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +449,7 @@
 				BB5AAD141BA7D9F30049B4A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
